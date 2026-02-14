@@ -5,3 +5,6 @@ This is a simple university lecture manager programmed in C. It is able to see i
   In a few words, this lecture manager is structured as a client server application TCP based to handle download and directory service functions    properly. 
   - Servers (database.c & directory_lookup.c) are cuncurrent with direct asymmetric schemes and synchronous mode with buffering both send &           receive sides.
   - The client (file_downloader.c) is single process and contacts both servers through a synchronous comunication (like both servers) send &          receive sides.
+
+- ## Warnings
+  As it stands, This project is just a Toy application. It lacks security implementation and some code optimization. This is just a fun project i did on my own to learn Client-Server model and basic comunication principles between those end systems. 
